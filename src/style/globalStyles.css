@@ -1,0 +1,26 @@
+:root{
+    /* cores */
+    --coffee-color-1: #251716;
+    --coffee-color-2: #725742;
+    --coffee-color-3: #A38468;
+    --coffee-color-4: #8A4A0C;
+    --coffee-color-5: #BF8F58;
+
+    /* fonts */
+    --font-primary: 'Inter', sans-serif;
+
+    --font-weight-1:  200;
+    --font-weight-2:  400;
+    --font-weight-3:  600;
+    --font-weight-4:  800;
+
+    --font-size-1:2rem;
+    --font-size-2:1.75rem;
+    --font-size-3:1.5rem;
+    --font-size-4:1rem;
+    --font-size-5:.8rem;
+    --font-size-6:.5rem;
+
+    --radius-1:0.5rem;
+    --radius-2:0.25rem;
+}

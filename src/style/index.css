@@ -1,0 +1,93 @@
+@import url(./globalStyles.css);
+body{
+    font-family: var(--font-primary);
+}
+.header__controler{
+    width: 100vw;
+    height: 14vh;
+
+    position: fixed;
+    z-index: 10;
+
+    background-color: var(--coffee-color-1);
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100%;
+    width: 90%;
+
+    margin: 0 auto;
+}
+.header__container h1{
+    font-size: var(--font-size-1);
+
+    color: white;
+}
+.header__container ul{
+    display: flex;
+    
+    gap: 2rem;
+}
+.header__container ul li{
+
+}
+.header__container ul li a{
+    color: white;
+    
+    font-size: var(--font-size-4);
+
+}
+.header__container ul li a:hover{
+    background-color: var(--coffee-color-2);
+
+    transition: all 0.7s;
+}
+.header__container div{
+    display: none;
+}
+
+.main__controler{
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(45deg, var(--coffee-color-4), var(--coffee-color-5));
+}
+.main__container{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.article__main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.article__main h3{
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-2);
+}
+.article__main h2{
+    font-size: 3.125rem;
+    font-weight: var(--font-weight-4);
+    margin-top: 1rem;
+}
+.img__article{
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    flex-direction: column;
+}
+.img__article figure{
+    width: 80%;
+}
+.img__article figure img{
+    width: 100%;
+}
